@@ -1,9 +1,16 @@
 {
-    "Name": "Ravencrest Couriers",
-    "Description": "W.I.P.",
-    "Author": "Thraxerrrr",
-    "AuthorUrl": "",
-    "VersionMajor": 0,
-    "VersionMinor": 0,
-    "VersionBuild": 1
+	"name": "Ravencrest Couriers",
+	"description": "W.I.P.",
+	"changeNote": "",
+	"author": "Thraxerrrr",
+	"authorUrl": "",
+	"versionMajor": 0,
+	"versionMinor": 0,
+	"versionBuild": 1,
+	"bRequiresLoadOnStartup": false,
+	"steamPublishedFileId": "",
+	"steamVisibility": 2,
+	"folderName": "RavencrestCouriers",
+	"revisionNumber": 246825,
+	"snapshotId": 26488
 }
