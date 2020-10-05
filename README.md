@@ -1,9 +1,30 @@
 # Ravencrest Couriers
 
-## Introduction
-
 Welcome to the documentation page for the **Ravencrest Couriers** mod for Conan Exiles!
 Here, you'll find information on what is included in the mod, and how you can use it.
+
+## What does this mod do?
+
+This mod aims to solve a long-standing concern for the Conan Exiles RP community:
+being able to write documents!
+While the vanilla game does contain notes and journals that you can write into, the possibilities are limited:
+
+- You can only write one page of text
+- You can only write on them after placing them into the world
+- If you pick them up, the text is lost
+
+Ravencrest Couriers offers in addition:
+
+- Books that may contain multiple pages
+- Texts that may contain images embedded in them
+- Scrolls that can be sealed
+- Notes that can be left in the build-claim areas of other players
+- A flexible system that allows you to write texts, pass them to other players, edit them, and so on!
+
+As for the future of this mod, there are _many_ more things we want to implement!
+Please visit our Discord to see the roadmap, or to share your own ideas:
+
+[https://discord.gg/FtWrKAZ](https://discord.gg/FtWrKAZ)
 
 ## Items, Recipes and Feats
 
@@ -73,19 +94,3 @@ When writing or reading books, use the '<' and '>' buttons to switch between pag
 Books have the additional advantage that you can edit them after writing them. To do this, open the book for reading and select the _Edit_ button:
 
 ![alt](docs/images/raco_read_book.jpg)
-
-## Roadmap
-
-Please visit our Discord to see the roadmap, or to make suggestions!
-
-[https://discord.gg/FtWrKAZ](https://discord.gg/FtWrKAZ)
-
-## Credits
-
-This mod is open-source: you can find all Unreal assets here on GitHub. Feel free to take a look around!
-It is a joint effort of several people:
-
-- Audacious
-- Noisette
-- Salmon
-- Thraxer
