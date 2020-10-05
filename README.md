@@ -18,8 +18,9 @@ Ravencrest Couriers offers in addition:
 - Books that may contain multiple pages
 - Texts that may contain images embedded in them
 - Scrolls that can be sealed
-- Notes that can be left in the build-claim areas of other players
-- A flexible system that allows you to write texts, pass them to other players, edit them, and so on!
+- Notes that can be placed in the bases of other players
+- All items can be placed down and then picked up again, while preserving their contents
+- All items can be read and written while in your inventory, e.g. a personal journal
 
 As for the future of this mod, there are _many_ more things we want to implement!
 Please visit our Discord to see the roadmap, or to share your own ideas:
