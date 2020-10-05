@@ -1,11 +1,11 @@
 # Ravencrest Couriers
 
-### Introduction
+## Introduction
 
 Welcome to the documentation page for the **Ravencrest Couriers** mod for Conan Exiles!
 Here, you'll find information on what is included in the mod, and how you can use it.
 
-### Items, Recipes and Feats
+## Items, Recipes and Feats
 
 Currently, this mod contains the following craftable items:
 
@@ -19,7 +19,7 @@ All of these can be crafted at the **Artisan Table** after learning the feat **P
 
 ![alt](docs/images/raco_feat.jpg)
 
-### Using the items
+## Using the items
 
 To interact with a note, scroll or book, place it in your shortcut bar, and activate it.
 
@@ -31,7 +31,7 @@ To interact with a note, scroll or book, place it in your shortcut bar, and acti
 You can also place your items down into the world, so others can read it!
 To do this, double-tap the corresponding item on your shortcut bar, instead of activating it with a single tap.
 
-#### Notes
+### Notes
 
 Notes may contain small, simple pieces of text.
 You can place notes anywhere, even in areas that are claimed by other players!
@@ -39,7 +39,7 @@ Of course, this means that anyone can _remove_ your notes as well...
 
 ![alt](docs/images/raco_new_note.jpg)
 
-#### Scrolls
+### Scrolls
 
 Scrolls may contain both text and images, but also have a limited length, just like notes.
 To embed an image, just insert the image's URL into the text. For example:
@@ -59,7 +59,7 @@ Scrolls can be placed down, but only in an area you own. They act like regular p
 
 ![alt](docs/images/raco_new_scroll.jpg)
 
-#### Books
+### Books
 
 Books may contain any number of pages. Each page may contain text and/or images, just like scrolls.
 In addition, books have a _title_ and an _author_ which will be displayed in the item's description.
@@ -73,3 +73,19 @@ When writing or reading books, use the '<' and '>' buttons to switch between pag
 Books have the additional advantage that you can edit them after writing them. To do this, open the book for reading and select the _Edit_ button:
 
 ![alt](docs/images/raco_read_book.jpg)
+
+## Roadmap
+
+Please visit our Discord to see the roadmap, or to make suggestions!
+
+https://discord.gg/FtWrKAZ
+
+## Credits
+
+This mod is open-source: you can find all Unreal assets here on GitHub. Feel free to take a look around!
+It is a joint effort of several people:
+
+- Audacious
+- Noisette
+- Salmon
+- Thraxer
