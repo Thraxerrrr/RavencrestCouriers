@@ -78,7 +78,7 @@ Books have the additional advantage that you can edit them after writing them. T
 
 Please visit our Discord to see the roadmap, or to make suggestions!
 
-[https://discord.gg/FtWrKAZ]https://discord.gg/FtWrKAZ
+[https://discord.gg/FtWrKAZ](https://discord.gg/FtWrKAZ)
 
 ## Credits
 
