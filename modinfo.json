@@ -1,16 +1,16 @@
 {
 	"name": "Ravencrest Couriers",
 	"description": "Ravencrest Couriers\n\nA mod for all your document-writing needs!\n\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\nDiscord ::: https://discord.gg/FtWrKAZ",
-	"changeNote": "Initial release!",
+	"changeNote": "Bird Coop update",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
-	"versionMajor": 1,
+	"versionMajor": 2,
 	"versionMinor": 0,
 	"versionBuild": 0,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2250037083",
 	"steamVisibility": 0,
 	"folderName": "RavencrestCouriers",
-	"revisionNumber": 246825,
-	"snapshotId": 26488
+	"revisionNumber": 253050,
+	"snapshotId": 26835
 }
