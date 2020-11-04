@@ -1,7 +1,7 @@
 {
 	"name": "Ravencrest Couriers",
 	"description": "Ravencrest Couriers\n\nA mod for all your document-writing needs!\n\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\nDiscord ::: https://discord.gg/FtWrKAZ",
-	"changeNote": "Bird Coop update",
+	"changeNote": "v2.0: Bird Coop update!\n\n* Added the Bird Coop system\n* Added open books, standing books, bookcases, inkpots and quills\n* Added ServerSettings for managing several aspects of the mod\n* Fixed book layout issue on ultra-widescreen resolutions\n* Fixed some layout issues with images\n\n",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
 	"versionMajor": 2,
