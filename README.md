@@ -99,6 +99,8 @@ To name your coop, interact with it and click on the name on top to change it:
 
 ![alt](docs/images/raco_coop_rename.jpg)
 
+Hurrah! You're now ready to receive messages from other players. You'll hear the sound of a bird whenever a new message arrives.
+
 ### Sending messages
 
 To send a message, interact with the coop and make sure a bird is nested in it.
@@ -112,6 +114,7 @@ Don't try to send a whole book, think of the poor bird!
 ![alt](docs/images/raco_coop_send_message.jpg)
 
 Select a destination from the list of available destinations, and press the "Send" button. You'll hear a sound of the bird taking off, and your message will be underway!
+When the bird returns from its journey, you'll hear its sound and it will nest in the coop again.
 
 ## Server Settings
 
