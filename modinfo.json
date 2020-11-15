@@ -1,16 +1,16 @@
 {
 	"name": "Ravencrest Couriers",
 	"description": "Ravencrest Couriers\n\nA mod for all your document-writing needs!\n\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\nDiscord ::: https://discord.gg/FtWrKAZ",
-	"changeNote": "v2.0: Bird Coop update!\n\n* Added the Bird Coop system\n* Added open books, standing books, bookcases, inkpots and quills\n* Added ServerSettings for managing several aspects of the mod\n* Fixed book layout issue on ultra-widescreen resolutions\n* Fixed some layout issues with images\n\n",
+	"changeNote": "v2.0.1: Bird Coop fixes\n\n* Fixed: possible server crash when picking up a coop\n* Fixed: book UI opening for both client and host on co-op servers\n* Fixed: reduced bird sound range to the local chat range\n* Added a toggle in coops: Can Receive Messages",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
 	"versionMajor": 2,
 	"versionMinor": 0,
-	"versionBuild": 0,
+	"versionBuild": 1,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2250037083",
 	"steamVisibility": 0,
 	"folderName": "RavencrestCouriers",
 	"revisionNumber": 255795,
-	"snapshotId": 26919
+	"snapshotId": 26931
 }
