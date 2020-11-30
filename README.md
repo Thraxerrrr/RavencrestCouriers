@@ -116,6 +116,31 @@ Don't try to send a whole book, think of the poor bird!
 Select a destination from the list of available destinations, and press the "Send" button. You'll hear a sound of the bird taking off, and your message will be underway!
 When the bird returns from its journey, you'll hear its sound and it will nest in the coop again.
 
+## Mail Boxes
+
+Learning the **Penmanship** feat will allow you to construct Mail Boxes in the blacksmith's bench.
+Mailboxes offer a unique mechanic to receive messages and other items from players (or via messenger birds) without giving them access to the container itself:
+players can drop items, but cannot retrieve any items from the mailbox.
+
+![alt](docs/images/small_mailbox.jpg)
+
+### Setting up a mail box
+
+- The first thing you'll want to do after placing down a mailbox, is **lock** it. If you don't lock the mailbox, it will act like a regular unlocked container!
+- Just like coops, you can name your mailboxes. Interact with the mailbox and click on the name to change it.
+- By default, your mailboxes can also receive messages via birds. If you don't want this, make sure to uncheck the option "This box can receive bird messages":
+
+![alt](docs/images/mailbox_can_receive.jpg)
+
+### Using a mail box
+
+To deposit items into a mailbox, interact with it, and then drag up to 5 items into the depositing slots:
+
+![alt](docs/images/mailbox_deposit.jpg)
+
+Click "Deposit" to drop your items into the mailbox. That's it! Your items are now deposited, and the owner can retrieve them at any time.
+Note that mailboxes have a limited size. If the mailbox is full, you'll get a message when trying to deposit more items.
+
 ## Server Settings
 
 Administrators can tune several settings related to this mod. Below is an overview:
