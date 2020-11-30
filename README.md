@@ -21,6 +21,7 @@ Ravencrest Couriers offers in addition:
 - All items can be placed down and then picked up again, while preserving their contents
 - All items can be read and written while in your inventory, e.g. a personal journal
 - Craftable bird coops where you can train birds to send your documents to others
+- Craftable mail boxes where other players can deposite items into, or send their birds to
 
 As for the future of this mod, there are _many_ more things we want to implement!
 Please visit our Discord to see the roadmap, or to share your own ideas:
