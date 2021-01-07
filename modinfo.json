@@ -1,16 +1,16 @@
 {
 	"name": "Ravencrest Couriers",
 	"description": "Ravencrest Couriers\n\nThis mod aims to solve a long-standing concern for the Conan Exiles RP community: being able to write documents, and share them with other players! While the vanilla game does contain notes and journals that you can write into, the possibilities are limited:\n- You can only write one page of text\n- You can only write on them after placing them into the world\n- If you pick them up, the text is lost\n\nRavencrest Couriers offers in addition:\n- Notes that can be placed in the bases of other players\n- Scrolls that can be sealed\n- Books that may contain multiple pages\n- You can embed images in the text\n- All items can be placed down and then picked up again, while preserving their contents\n- All items can be read and written while in your inventory, e.g. a personal journal\n- Craftable bird coops where you can train birds to send your documents to others\n- Craftable mail boxes where other players can deposite items into, or send their birds to\n\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\nDiscord ::: https://discord.gg/FtWrKAZ",
-	"changeNote": "v2.1.0: Mailboxes\n\n* Added craftable Small Mailbox\n* Fixed: coop inventory disappearing when Unlock+ Extended Storage is used\n* Fixed: don't pre-select a destination in coops",
+	"changeNote": "v2.1.1: Compatibility update for patch 2.2\n\n* Fixed: birds are again craftable in coops\n* Fixed: all placeables are now more durable",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
 	"versionMajor": 2,
 	"versionMinor": 1,
-	"versionBuild": 0,
+	"versionBuild": 1,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2250037083",
 	"steamVisibility": 0,
 	"folderName": "RavencrestCouriers",
-	"revisionNumber": 255795,
-	"snapshotId": 26931
+	"revisionNumber": 265775,
+	"snapshotId": 27373
 }
