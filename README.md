@@ -65,7 +65,9 @@ To embed an image, just insert the image's URL into the text. For example:
 > And here is some more text!
 
 Scrolls can also be **sealed**, which will hide their contents until someone breaks the seal.
-You can sign the seal with a short piece of text, like the initials or a cryptic name...
+You can sign the seal with your name, or with a custom seal image.
+
+![alt](docs/images/raco_seal_config.jpg)
 
 ![alt](docs/images/raco_sealed_scroll.jpg)
 
@@ -116,6 +118,10 @@ Don't try to send a whole book, think of the poor bird!
 
 Select a destination from the list of available destinations, and press the "Send" button. You'll hear a sound of the bird taking off, and your message will be underway!
 When the bird returns from its journey, you'll hear its sound and it will nest in the coop again.
+
+### Placing birds
+
+The birds that you train in the coop, can also be taken out of them and placed anywhere in your base, just like regular placeables.
 
 ## Mail Boxes
 
