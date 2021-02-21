@@ -3,6 +3,9 @@
 Welcome to the documentation page for the **Ravencrest Couriers** mod for Conan Exiles!
 Here, you'll find information on what is included in the mod, and how you can use it.
 
+{:toc}
+
+
 ## What does this mod do?
 
 This mod aims to solve a long-standing concern for the Conan Exiles RP community: being able to write documents, and share them with other players!
@@ -14,26 +17,29 @@ While the vanilla game does contain notes and journals that you can write into, 
 
 Ravencrest Couriers offers in addition:
 
-- Notes that can be placed in the bases of other players
-- Scrolls that can be sealed
-- Books that may contain multiple pages
-- You can embed images in the text
+- Notes that can be placed anywhere, even in the base of other players
+- Scrolls that can be sealed with a custom seal image
+- Books that may contain multiple pages with text and images
 - All items can be placed down and then picked up again, while preserving their contents
 - All items can be read and written while in your inventory, e.g. a personal journal
-- Craftable bird coops where you can train birds to send your documents to others
+- Craftable bird coops where you can train birds to send messages to other players
 - Craftable mail boxes where other players can deposite items into, or send their birds to
+- Birds are animated and can be placed on your shoulder
+- Birds can also be placed in the world, and optionally configured to emit a cry whenever a player approaches
 
-As for the future of this mod, there are _many_ more things we want to implement!
+As for the future of this mod, there are still more things we want to implement!
 Please visit our Discord to see the roadmap, or to share your own ideas:
 
 [https://discord.gg/FtWrKAZ](https://discord.gg/FtWrKAZ)
+
 
 ## Feats and Recipes
 
 Ravencrest Couriers offers two feats that can be learned:
 
-- **Penmanship**: Allows you to craft notes, scrolls and books that you can write into. Also allows you to craft bookcases, inkpots and quills.
+- **Penmanship**: Allows you to craft notes, scrolls and books that you can write into. Also allows you to craft bookcases, inkpots and quills, and mailboxes.
 - **Bird Keeper**: Allows you to build bird coops and train messenger birds in them. These birds can be used to send messages to other players.
+
 
 ## Reading and Writing
 
@@ -44,8 +50,10 @@ To interact with a note, scroll or book, place it in your shortcut bar, and acti
 - If it's an empty document, you will be able to write into it.
 - If it's an existing document containing text, you will be able to read it.
 
+### Placing down a note, scroll or book
+
 You can also place your items down into the world, so others can read it!
-To do this, double-tap the corresponding item on your shortcut bar, instead of activating it with a single tap.
+To do this, **double-tap** the corresponding item on your shortcut bar, instead of activating it with a single tap.
 
 ### Notes
 
@@ -92,6 +100,7 @@ Books have the additional advantage that you can edit them after writing them. T
 
 ![alt](docs/images/raco_read_book.jpg)
 
+
 ## Bird Coops
 
 After learning the feat **Bird Keeper**, you'll be able to craft different types of bird coops in the Blacksmith Bench.
@@ -111,17 +120,60 @@ To nest a bird, place a bird in the coop (either by training one or by taking on
 
 ![alt](docs/images/raco_coop_nest.jpg)
 
-Next, drag a nested bird into the Bird slot at the bottom, and drag a message into the Message slot. Only Written Notes and Parchment Scrolls can be carried by a bird.
-Don't try to send a whole book, think of the poor bird!
+Next, drag a nested bird into the Bird slot at the bottom, and drag one or more items into the Item slots.
+Keep an eye on the weight! Birds can only carry a limited amount of items, and will fly slower if their weight is over 50%.
+For more info, see  the "Bird Stats" topic.
 
 ![alt](docs/images/raco_coop_send_message.jpg)
 
 Select a destination from the list of available destinations, and press the "Send" button. You'll hear a sound of the bird taking off, and your message will be underway!
 When the bird returns from its journey, you'll hear its sound and it will nest in the coop again.
 
+## Birds
+
+Birds are trained in a bird coop. You'll note a number of different bird types are available to craft. Each bird has their own visuals, sounds, animations
+and base stats.
+
+![alt](docs/images/raco_bird_types.jpg)
+
+### Bird Stats
+
+To see the stats of a bird, put the bird in your shortcut bar and activate it. A Bird Profile window will appear.
+
+![alt](docs/images/raco_bird_profile.jpg)
+
+You'll note that birds start at level 0, just like thralls. And just like thralls, you can level them up to level 20.
+There are two ways for a bird to gain XP:
+
+* Birds will gain a certain amount of XP for each message they deliver
+* Birds will gain passive XP per hour when they sit on your shoulder
+
+When a bird levels up, you get a level point to spend on one of these stats:
+
+* **Travel Speed**: each point will make the bird faster, allowing it to deliver messages in less time.
+* **Carry Weight**: each point will make the bird stronger, allowing it to carry more weight.
+* **Detection Range**: each point will make the bird more alert, allowing it to detect players from further away when in Detection Mode (see below).
+
 ### Placing birds
 
-The birds that you train in the coop, can also be taken out of them and placed anywhere in your base, just like regular placeables.
+To place a bird down in the world (just like any other decorative placeable), put it in your shortcut bar, open the bird's profile, and then select "Place".
+
+Alternatively, while the bird is in your inventory, you can display it on your shoulder. To do this, put it in your shortcut bar, open the bird's profile,
+and then select "Equip". The bird will gain passive XP as long as it's sitting on your shoulder.
+To remove it from your shoulder, open the profile again and select "Unequip".
+
+### Detection Mode
+
+When a bird is placed down, it can be switched into _Detection Mode_. This means the bird will be on the lookout for other players, and make a sound whenever
+a player enters a certain range. Hold E on a placed bird and select "Configure Detection Mode" to configure it:
+
+![alt](docs/images/raco_detection_config.jpg)
+
+The available settings are:
+
+* **Detection Mode Enabled**: if set, the bird will be on the lookout. If this setting is disabled, the bird will just be a decorative placeable.
+* **Detection Radius**: this is the range (in centimeters) that the bird will scan.
+* **Detect Types**: here, you can choose which types of players the bird should respond to.
 
 ## Mail Boxes
 
@@ -155,6 +207,8 @@ Administrators can tune several settings related to this mod. Below is an overvi
 - **baseFlightDurationSec**: the number of seconds it takes a bird to reach its destination. Default value: 3600 seconds.
 - **checkMessageFrequencySec**: how often the server will run a check for message delivery. Default value: 60 seconds.
 - **allowRenderImages**: use this setting to prevent scrolls and books from showing images. Default value: true (images are allowed).
+- **birdXPPerHour**: the amount of XP a bird receives every hour when sitting on a player's shoulder. Default value: 5000.
+- **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: 10000.
 
 To change a setting, you must have administrator privileges. Open the console (by default using the tilde '~' sign), and enter the command:
 ```
