@@ -209,6 +209,7 @@ Administrators can tune several settings related to this mod. Below is an overvi
 - **allowRenderImages**: use this setting to prevent scrolls and books from showing images. Default value: true (images are allowed).
 - **birdXPPerHour**: the amount of XP a bird receives every hour when sitting on a player's shoulder. Default value: 5000.
 - **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: 10000.
+- **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. default value: true (Detection Mode is allowed).
 
 To change a setting, you must have administrator privileges. Open the console (by default using the tilde '~' sign), and enter the command:
 ```
