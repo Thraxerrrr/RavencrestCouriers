@@ -57,21 +57,21 @@ To do this, **double-tap** the corresponding item on your shortcut bar, instead 
 
 ### Notes
 
-Notes may contain small, simple pieces of text.
+Notes may contain small, simple pieces of text or images.
 You can place notes anywhere, even in areas that are claimed by other players!
 Of course, this means that anyone can _remove_ your notes as well...
 
 ![alt](docs/images/raco_new_note.jpg)
 
-### Scrolls
-
-Scrolls may contain both text and images, but also have a limited length, just like notes.
 To embed an image, just insert the image's URL into the text. For example:
 
 > This is some text...
 > Here is an image: https://i.imgur.com/SDJBJzb.png
 > And here is some more text!
 
+### Scrolls
+
+Scrolls may contain both text and images, but also have a limited length, just like notes.
 Scrolls can also be **sealed**, which will hide their contents until someone breaks the seal.
 You can sign the seal with your name, or with a custom seal image.
 
@@ -209,7 +209,8 @@ Administrators can tune several settings related to this mod. Below is an overvi
 - **allowRenderImages**: use this setting to prevent scrolls and books from showing images. Default value: true (images are allowed).
 - **birdXPPerHour**: the amount of XP a bird receives every hour when sitting on a player's shoulder. Default value: 5000.
 - **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: 10000.
-- **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. default value: true (Detection Mode is allowed).
+- **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. Default value: true (Detection Mode is allowed).
+- **allowCopyBooks**: enable the button to copy books for all players, admins only, or nobody. Possible values: `all`, `admin`, `none`. Default value: `none`.
 
 To change a setting, you must have administrator privileges. Open the console (by default using the tilde '~' sign), and enter the command:
 ```
