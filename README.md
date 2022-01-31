@@ -10,6 +10,7 @@ Here, you'll find information on what is included in the mod, and how you can us
 * [Reading and Writing](#reading-and-writing)
 * [Bird Coops](#bird-coops)
 * [Birds](#birds)
+* [Tracking](#tracking)
 * [Mail Boxes](#mail-boxes)
 * [Server Settings](#server-settings)
 
@@ -143,6 +144,8 @@ and base stats.
 
 ![alt](docs/images/raco_bird_types.jpg)
 
+Some birds, such as eagles, are so large they can only nest in large coops. Don't try to squeeze the poor things into a small coop!
+
 ### Bird Stats
 
 To see the stats of a bird, put the bird in your shortcut bar and activate it. A Bird Profile window will appear.
@@ -159,7 +162,7 @@ When a bird levels up, you get a level point to spend on one of these stats:
 
 * **Travel Speed**: each point will make the bird faster, allowing it to deliver messages in less time.
 * **Carry Weight**: each point will make the bird stronger, allowing it to carry more weight.
-* **Detection Range**: each point will make the bird more alert, allowing it to detect players from further away when in Detection Mode (see below).
+* **Detection Range**: each point will make the bird more alert, increasing its range to detect objects when in Detection Mode (see below), or in [Tracking](#tracking) mode.
 
 ### Placing birds
 
@@ -181,6 +184,23 @@ The available settings are:
 * **Detection Mode Enabled**: if set, the bird will be on the lookout. If this setting is disabled, the bird will just be a decorative placeable.
 * **Detection Radius**: this is the range (in centimeters) that the bird will scan.
 * **Detect Types**: here, you can choose which types of players the bird should respond to.
+
+## Tracking
+
+When you have a bird perched on your shoulder, you can activate its profile again and press **Toggle Tracking** to enable or disable tracking mode.
+
+![alt](docs/images/raco_bird_profile_tracking.jpg)
+
+In tracking mode, your bird can detect various types of nearby entities. The tracking range is determined by the bird's **Detection Range** stat.
+The following types of objects can be tracked:
+
+* The bird will always track other birds, either placed birds or birds in coops.
+* The bird can track wild and tamed NPCs and animals, but only if an admin has enabled this feature (see [Server Settings](#server-settings)).
+* The bird can track other players, but only if an admin has enabled this feature (see [Server Settings](#server-settings)).
+
+![alt](docs/images/raco_tracking_types.jpg)
+
+**Note:** tracking happens entirely on the client-side, and will not affect server performance in any way.
 
 ## Mail Boxes
 
