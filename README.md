@@ -239,9 +239,9 @@ Administrators can tune several settings related to this mod. Below is an overvi
 - **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: `10000`.
 - **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. Default value: `true` (Detection Mode is allowed).
 - **allowCopyBooks**: enable the button to copy books for all players, admins only, or nobody. Possible values: `all`, `admin`, `none`. Default value: `none`.
-- **allowTracking**: enable the ability for equipped birds to track birds, people and other animals. Default value: `true`.
-- **allowNPCTracking**: enable the ability for equipped birds to track NPCs and animals (both wild and tamed). Default value: `false`.
-- **allowPlayerTracking**: enable the ability for equipped birds to track other players. Default value: `false`.
+- **allowTracking**: allow equipped birds to track other birds. Default value: `true`.
+- **allowNPCTracking**: allow equipped birds to track NPCs and animals (both wild and tamed). Default value: `false`.
+- **allowPlayerTracking**: allow equipped birds to track other players. Default value: `false`.
 
 To change a setting, you must have administrator privileges. Open the console (by default using the tilde '~' sign), and enter the command:
 ```
