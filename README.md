@@ -188,6 +188,7 @@ The available settings are:
 ## Tracking
 
 When you have a bird perched on your shoulder, you can activate its profile again and press **Toggle Tracking** to enable or disable tracking mode.
+Note that tracking can be admin-disabled on a server (see [Server Settings](#server-settings)).
 
 ![alt](docs/images/raco_bird_profile_tracking.jpg)
 
@@ -231,13 +232,16 @@ Note that mailboxes have a limited size. If the mailbox is full, you'll get a me
 
 Administrators can tune several settings related to this mod. Below is an overview:
 
-- **baseFlightDurationSec**: the number of seconds it takes a bird to reach its destination. Default value: 3600 seconds.
-- **checkMessageFrequencySec**: how often the server will run a check for message delivery. Default value: 60 seconds.
-- **allowRenderImages**: use this setting to prevent scrolls and books from showing images. Default value: true (images are allowed).
-- **birdXPPerHour**: the amount of XP a bird receives every hour when sitting on a player's shoulder. Default value: 5000.
-- **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: 10000.
-- **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. Default value: true (Detection Mode is allowed).
+- **baseFlightDurationSec**: the number of seconds it takes a bird to reach its destination. Default value: `3600` seconds.
+- **checkMessageFrequencySec**: how often the server will run a check for message delivery. Default value: `60` seconds.
+- **allowRenderImages**: use this setting to prevent scrolls and books from showing images. Default value: `true` (images are allowed).
+- **birdXPPerHour**: the amount of XP a bird receives every hour when sitting on a player's shoulder. Default value: `5000`.
+- **birdXPPerMessage**: the amount of XP a bird receives every time it delivers a message. Default value: `10000`.
+- **detectionModeEnabled**: enable or disable the use of Detection Mode on birds. Default value: `true` (Detection Mode is allowed).
 - **allowCopyBooks**: enable the button to copy books for all players, admins only, or nobody. Possible values: `all`, `admin`, `none`. Default value: `none`.
+- **allowTracking**: enable the ability for equipped birds to track birds, people and other animals. Default value: `true`.
+- **allowNPCTracking**: enable the ability for equipped birds to track NPCs and animals (both wild and tamed). Default value: `false`.
+- **allowPlayerTracking**: enable the ability for equipped birds to track other players. Default value: `false`.
 
 To change a setting, you must have administrator privileges. Open the console (by default using the tilde '~' sign), and enter the command:
 ```
