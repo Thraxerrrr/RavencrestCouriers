@@ -3,8 +3,15 @@
 Welcome to the documentation page for the **Ravencrest Couriers** mod for Conan Exiles!
 Here, you'll find information on what is included in the mod, and how you can use it.
 
-{% include toc.html html=content %}
-{{ content }}
+## Table of Contents
+
+* [What does this mod do?](#what-does-this-mod-do)
+* [Feats and Recipes](#feats-and-recipes)
+* [Reading and Writing](#reading-and-writing)
+* [Bird Coops](#bird-coops)
+* [Birds](#birds)
+* [Mail Boxes](#mail-boxes)
+* [Server Settings](#server-settings)
 
 ## What does this mod do?
 
