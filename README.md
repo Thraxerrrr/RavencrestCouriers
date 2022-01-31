@@ -3,8 +3,8 @@
 Welcome to the documentation page for the **Ravencrest Couriers** mod for Conan Exiles!
 Here, you'll find information on what is included in the mod, and how you can use it.
 
-{:toc}
-
+{% include toc.html html=content %}
+{{ content }}
 
 ## What does this mod do?
 
