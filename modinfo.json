@@ -1,18 +1,18 @@
 {
 	"name": "Ravencrest Couriers",
 	"description": "Ravencrest Couriers\n\nThis mod aims to solve a long-standing concern for the Conan Exiles RP community: being able to write documents, and share them with other players!\nWhile the vanilla game does contain notes and journals that you can write into, the possibilities are limited:\n\n- You can only write one page of text\n- You can only write on them after placing them into the world\n- If you pick them up, the text is lost\n\nRavencrest Couriers offers in addition:\n\n- Notes that can be placed anywhere, even in the base of other players\n- Scrolls that can be sealed with a custom seal image\n- Books that may contain multiple pages with text and images\n- All items can be placed down and then picked up again, while preserving their contents\n- All items can be read and written while in your inventory, e.g. a personal journal\n- Craftable bird coops where you can train birds to send messages to other players\n- Craftable mail boxes where other players can deposite items into, or send their birds to\n- Birds are animated and can be placed on your shoulder\n- Birds can also be placed in the world, and optionally configured to emit a cry whenever a player approaches\n\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\nDiscord ::: https://discord.gg/FtWrKAZ\n\nPlease use the discord for any questions, or to report any issues.",
-	"changeNote": "v4.2.4\n\n* Updated for compatibility with Age of War Chapter 4",
+	"changeNote": "v4.3.0\n\n* Compatible with Age of Heroes",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
 	"versionMajor": 4,
-	"versionMinor": 2,
-	"versionBuild": 4,
+	"versionMinor": 3,
+	"versionBuild": 0,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2250037083",
 	"steamTestLivePublishedFileId": "",
 	"steamVisibility": 0,
 	"folderName": "RavencrestCouriers",
-	"revisionNumber": 738062,
-	"snapshotId": 40768,
+	"revisionNumber": 1043755,
+	"snapshotId": 42715,
 	"fileSize": -2
 }
