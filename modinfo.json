@@ -1,10 +1,10 @@
 {
-	"name": "Ravencrest Couriers",
+	"name": "Ravencrest Couriers (CE:Enhanced)",
 	"description": "Ravencrest Couriers\r\n\r\nThis mod aims to solve a long-standing concern for the Conan Exiles RP community: being able to write documents, and share them with other players!\r\nWhile the vanilla game does contain notes and journals that you can write into, the possibilities are limited:\r\n\r\n- You can only write one page of text\r\n- You can only write on them after placing them into the world\r\n- If you pick them up, the text is lost\r\n\r\nRavencrest Couriers offers in addition:\r\n\r\n- Notes that can be placed anywhere, even in the base of other players\r\n- Scrolls that can be sealed with a custom seal image\r\n- Books that may contain multiple pages with text and images\r\n- All items can be placed down and then picked up again, while preserving their contents\r\n- All items can be read and written while in your inventory, e.g. a personal journal\r\n- Craftable bird coops where you can train birds to send messages to other players\r\n- Craftable mail boxes where other players can deposite items into, or send their birds to\r\n- Birds are animated and can be placed on your shoulder\r\n- Birds can also be placed in the world, and optionally configured to emit a cry whenever a player approaches\r\n\r\nDocumentation ::: https://thraxerrrr.github.io/RavencrestCouriers/\r\nDiscord ::: https://discord.gg/FtWrKAZ\r\n\r\nPlease use the discord for any questions, or to report any issues.",
-	"changeNote": "v1.0.0",
+	"changeNote": "",
 	"author": "Thraxerrrr",
 	"authorUrl": "https://thraxerrrr.github.io/RavencrestCouriers/",
-	"versionMajor": 1,
+	"versionMajor": 5,
 	"versionMinor": 0,
 	"versionBuild": 0,
 	"bRequiresLoadOnStartup": false,
@@ -12,11 +12,12 @@
 	"steamTestLivePublishedFileId": "",
 	"steamWorkshopFileIds":
 	{
+		"mainClient": "3744604916"
 	},
-	"steamVisibility": 3,
+	"steamVisibility": 2,
 	"folderName": "RavencrestCouriers",
-	"revisionNumber": 1043755,
-	"snapshotId": 42715,
+	"devkitRevisionNumber": 1001,
+	"devkitSnapshotId": 0,
 	"fileSize": -2,
 	"minimumVersion": "Enhanced"
 }
